@@ -30,4 +30,57 @@
     z-index: 2;
   }
   
+  footer {
+    background-color:#292929;
+    color: white;
+}
+
+/* Background and text */
+.newsletter-banner {
+    background: url('your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    color: #fff;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .email-input {
+    border-radius: 0;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .subscribe-btn {
+    background-color: #b28a4e;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 0.75rem 1.25rem;
+  }
+    .social-icons .icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b28a4e;
+    color: white;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icons .icon-circle:hover {
+    background-color: #8a6a3f;
+  }
   
